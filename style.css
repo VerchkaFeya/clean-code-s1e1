@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -28,7 +28,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -59,7 +59,7 @@ button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -141,13 +141,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.delete-button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete-button__img:hover {
   transform: rotateZ(0);
 }
 
