@@ -151,7 +151,8 @@ li > * {
 }
 
 /* Edit Task */
-.task {
+.task_incomplete,
+.task_completed {
   display: none;
 }
 
