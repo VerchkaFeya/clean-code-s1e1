@@ -1,4 +1,11 @@
 /* Basic Style */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -42,22 +49,6 @@
 
 .add-item-section__input-wrapper {
   display: flex;
-}
-
-ul {
-  margin:0;
-  padding: 0px;
-}
-
-li,
-.title {
-  list-style: none;
-}
-
-input,
-.task,
-button {
-  outline: none;
 }
 
 .button {
@@ -127,7 +118,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.checkbox {
   margin: 0 10px;
 }
 
