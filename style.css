@@ -61,7 +61,7 @@
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
@@ -145,7 +145,7 @@ li > * {
 }
 
 /* Completed */
-.completed-tasks label {
+.completed-tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
