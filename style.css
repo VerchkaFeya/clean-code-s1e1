@@ -145,7 +145,7 @@ li > * {
 }
 
 /* Completed */
-.completed-tasks .task-label {
+.completed-tasks-section .task-label {
   text-decoration: line-through;
   color: #888;
 }
